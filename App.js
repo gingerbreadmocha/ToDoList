@@ -4,6 +4,9 @@ import ToDo from './ToDo.js';
 
 export default class App extends React.Component {
   render() {
+
+    console.log('wubba lubba');
+
     return (
       <View style={styles.container}>
         <ToDo style={styles.list}/>
@@ -14,12 +17,10 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     backgroundColor: '#FAEBD7',
     alignItems: 'center',
     justifyContent: 'center',
   },
   list: {
-    flex: 1
   }
 });

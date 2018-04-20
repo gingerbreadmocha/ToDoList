@@ -71,10 +71,8 @@ export default class ToDo extends Component{
     flexDirection: 'row',
     flexWrap: 'wrap', */
     backgroundColor:'#FAEBD7',
-    flex:3
   },
   fullWidth:{
 /*     flexDirection: 'row' */
-      flex: 1
   }
 }); 
